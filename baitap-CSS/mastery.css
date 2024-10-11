@@ -1,0 +1,484 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Header CSS */
+.header {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.icon {
+  float: left;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  object-fit: contain;
+  cursor: pointer;
+  background-color: #002146;
+  border-radius: 50%;
+  color: #fdc800;
+  margin: 0 10px 10px 0;
+}
+
+.header__icon h1 {
+  font-weight: bold;
+  color: #1b1d2d;
+}
+
+.navbar ul {
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.navbar ul a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #1b1d2d;
+  font-size: 18px;
+}
+/* end Header CSS */
+
+/* Carousel CSS */
+.carousel {
+  background-image: url(./images/2.jpg);
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* end Carousel CSS */
+
+/* Campus CSS */
+.campus {
+  width: 100%;
+}
+
+.campus__detail {
+  margin: auto;
+  width: 80%;
+  padding: 40px;
+}
+
+.campus__left,
+.campus__right {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.campus__left {
+  padding-top: 20px;
+}
+
+.campus__left h1 {
+  margin: 40px;
+  text-align: left;
+}
+
+.campus__left p {
+  font-size: 22px;
+  text-align: left;
+  margin-left: 40px;
+  margin-right: 20px;
+  color: #797979;
+}
+
+.campus__button {
+  margin: 40px;
+  display: block;
+  text-align: left;
+}
+
+.campus__button button {
+  padding: 20px 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fdc800;
+  font-weight: bold;
+  color: #002146;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.campus__button button:hover {
+  background-color: #002146;
+  color: #fdc800;
+}
+/* end Campus CSS */
+
+/* About CSS */
+.about {
+  width: 100%;
+  background-color: #f6f6f6;
+}
+
+.about__detail {
+  width: 80%;
+  margin: auto;
+  padding: 20px 40px;
+}
+
+.about__card {
+  padding: 20px 40px;
+  width: 25%;
+  float: left;
+  margin: auto;
+}
+
+.about__cardNumber,
+.about__cardText {
+  float: left;
+}
+
+.about__cardNumber {
+  width: 35%;
+  height: 60px;
+}
+
+.about__cardNumber h2 {
+  text-align: center;
+  padding: 5px 0 5px 10px;
+  font-size: 48px;
+}
+
+.about__cardText {
+  width: 65%;
+  height: 60px;
+}
+
+.about__cardText p {
+  text-align: left;
+  padding: 5px 10px 5px 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+/* end About CSS */
+
+/* Programs CSS */
+.programs {
+  width: 100%;
+}
+
+.programs__detail {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px 40px;
+}
+
+.programs__row {
+  width: 100%;
+  margin: auto;
+}
+
+.programs__card {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.programs_cardDetail {
+  background-color: #002146;
+  border-radius: 5px;
+  padding: 30px;
+  cursor: pointer;
+}
+
+.programs__cardIcon {
+  color: #f6f6f6;
+  display: block;
+  font-size: 36px;
+  text-align: center;
+}
+
+.programs__cardText {
+  text-align: center;
+  padding: 10px;
+  color: #f6f6f6;
+}
+/* end Programs CSS */
+
+/* PostsEvents CSS */
+.PostsEvents {
+  width: 100%;
+  background-color: #f6f6f6;
+}
+
+.PostsEvents__detail {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+}
+
+.latestpost,
+.upcomingevent {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+.latestpost h3 {
+  text-align: left;
+  padding: 20px;
+  font-size: 30px;
+  color: #002146;
+}
+
+.latestposts_detail {
+  background-color: #ffffff;
+  margin: auto;
+  padding: 20px;
+}
+
+.posts {
+  margin: 10px;
+  padding: 10px;
+}
+
+.posts__image,
+.posts_detail {
+  float: left;
+}
+
+.posts__image {
+  width: 33%;
+}
+
+.posts__image img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.posts_detail {
+  width: 67%;
+  padding: 10px;
+  line-height: 36px;
+}
+
+.posts_detail h4 {
+  font-size: 24px;
+  color: #002146;
+  text-align: left;
+}
+
+.posts_detail h5 {
+  font-size: 14px;
+  color: #939393;
+}
+
+/* .hr {
+  margin: 10px;
+  padding: 10px;
+  color: #eeeeee;
+} */
+
+.latestposts__button {
+  display: block;
+  margin-top: 40px;
+  text-align: right;
+}
+
+.latestposts__button button {
+  padding: 20px 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fdc800;
+  font-weight: bold;
+  color: #002146;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.latestposts__button button:hover {
+  background-color: #002146;
+  color: #fdc800;
+}
+
+.upcomingevent h3 {
+  text-align: left;
+  padding: 20px;
+  font-size: 30px;
+  color: #002146;
+}
+
+.events__detail {
+  background-color: #ffffff;
+  margin: auto;
+  padding: 20px;
+}
+
+.events__detailCard,
+.events__detailContent {
+  float: left;
+  padding: 20px;
+}
+
+.events__detailCard {
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+}
+
+.detailCard_up {
+  background-color: #fdc800;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.detailCard_up h4 {
+  color: #002146;
+  font-size: 36px;
+}
+
+.detailCard_up h5 {
+  color: #002146;
+  font-size: 18px;
+}
+
+.detailCard_down {
+  background-color: #002146;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+.detailCard_down h5 {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.events__detailContent {
+  width: 80%;
+}
+
+.events__detailContent h4 {
+  font-size: 24px;
+  padding: 2px;
+  text-align: left;
+  color: #002146;
+}
+
+.events__detailContent p {
+  font-size: 18px;
+  padding: 2px;
+  text-align: left;
+  color: #939393;
+}
+
+.events__detailContent h5 {
+  font-size: 18px;
+  padding: 2px;
+  text-align: left;
+  color: #002146;
+}
+
+.events__button {
+  display: block;
+  margin-top: 40px;
+  text-align: right;
+}
+
+.events__button button {
+  padding: 20px 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fdc800;
+  font-weight: bold;
+  color: #002146;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.events__button button:hover {
+  background-color: #002146;
+  color: #fdc800;
+}
+/* end PostsEvents CSS */
+
+/* Footer CSS */
+.footer {
+  width: 100%;
+  background-color: #002146;
+}
+
+.footer__detail {
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+  padding: 40px;
+}
+
+.footer__contact,
+.footer__featuredLinks,
+.foooter__quickLinks {
+  float: left;
+  width: calc(100% / 3);
+  padding: 20px;
+}
+
+.footer__contact h3,
+.footer__featuredLinks h3,
+.foooter__quickLinks h3 {
+  font-size: 24px;
+  padding: 20px 20px 20px 0;
+  text-align: left;
+  color: #ffffff;
+}
+
+.footer__contact ul,
+.footer__featuredLinks ul,
+.foooter__quickLinks ul {
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.footer__contact ul li,
+.footer__featuredLinks ul li,
+.foooter__quickLinks ul li {
+  margin: auto;
+  line-height: 18px;
+  list-style: none;
+  font-size: 18px;
+  padding: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.footer__featuredLinks ul a,
+.foooter__quickLinks ul a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.footer__contact i {
+  color: #fdc800;
+}
+
+.footer__copyrights {
+  padding: 20px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.footer__copyrights span {
+  color: #717f90;
+}
+/* end Footer CSS */ ;
